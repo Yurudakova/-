@@ -2,8 +2,11 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   padding-top: 45px;
+  background: #d4eae2;
+  height: 100vh;
 }
 
 .header {
@@ -27,16 +30,53 @@ body {
   margin-right: 0;
 }
 
-.signin {
-    background: #00623B;
-    border-radius: 6px;
-    border: none;
-    color: #FFF;
-    padding: 10px 30px;
-    cursor: pointer;
-  }
+.text {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
 
-  .signin:hover {
-    background: #00623ba2;
-  }
+.signin {
+  background: #00623b;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.signin:hover {
+  background: #00623ba2;
+}
+
+.title {
   
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 90px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  text-shadow: 0px 6px 9px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.green__title {
+  color: #00623b;
+  text-shadow: none;
+}
+
+.cups {
+  width: 750px;
+  margin-left: 5px;
+  margin-top: -28px;
+}
