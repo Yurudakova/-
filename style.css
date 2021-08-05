@@ -87,6 +87,7 @@ body {
   height: 321px;
   background: #219c6b;
   filter: blur(200px);
+  z-index: -1;
 }
 
 .shadow-left {
