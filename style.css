@@ -54,7 +54,7 @@ body {
 }
 
 .title {
-    font-family: Manrope;
+  font-family: Manrope;
   font-style: normal;
   font-weight: bold;
   font-size: 90px;
@@ -78,5 +78,23 @@ body {
 .cups {
   width: 750px;
   margin-left: 5px;
-  margin-top: -28px;
+  margin-top: -20px;
+}
+
+.shadow {
+  position: fixed;
+  width: 321px;
+  height: 321px;
+  background: #219c6b;
+  filter: blur(200px);
+}
+
+.shadow-left {
+  left: 50px;
+  bottom: -100px;
+}
+
+.shadow-right {
+  right: -100px;
+  top: 50px;
 }
